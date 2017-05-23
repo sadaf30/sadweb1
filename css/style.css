@@ -1,6 +1,18 @@
 body{
 	background-color: #ffb3b3;
 }
+nav ul{
+	padding: none;
+}
+
+nav li{
+		float: left;
+		width: 33%;
+		list-style: none;
+		text-align: center;
+
+
+}
 
 h1{
 	text-align: center;
@@ -15,7 +27,22 @@ p,li{
 	line-height: 25px;
 
 }
-a{
+ nav a{
 	color: grey;
 	text-decoration: none;
+}
+nav a:hover{
+	color: yellow;
+}
+a{
+	color: #696969;
+	text-decoration: none;
+}
+p{
+	padding: 10px;
+}
+img{
+	display: inline-block;
+	padding: 90px;
+	
 }
